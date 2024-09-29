@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Form</title>
+  <style>
+    .bg-color {
+      height: 190px;
+      border-radius: 5px;
+      background: linear-gradient(rgb(38, 110, 101), rgb(224, 255, 251));
+      border: 2px solid;
+    }
+
+    .header-clr {
+      color: white;
+      border-radius: 5px;
+      background: linear-gradient(rgb(255, 0, 0), rgb(57, 0, 0));
+      font-family: fantasy;
+      font-style: italic;
+      height: 30px;
+      text-align: center;
+      border: 2px solid;
+      border-color: rgb(45, 0, 0);
+
+    }
+
+    .Ec {
+      color: white;
+      font-family: monospace;
+    }
+
+    .center {
+      text-align: center;
+
+    }
+  </style>
+</head>
+
+<body>
+  <form>
+    <header class="header-clr" for="user-form" style="width: 800px">U S E R - F O R M</header>
+    <div class="bg-color" style="width: 800px">
+      <div class="center">
+        <label class="Ec">Enter Your Credentials</label>
+        <br />
+        <br>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" required style="border: 2px solid">
+      </div>
+      <br>
+      <div class="center">
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required style="border: 2px solid">
+      </div>
+      <br />
+      <div class="center">
+        <label for="number">Phone No:</label>
+        <input type="number" name="number" id="number" required style="border: 2px solid">
+      </div>
+      <br />
+      <div class="center">
+        <input type="submit" value="submit">
+        <input type="reset" value="reset">
+      </div>
+  </form>
+  </div>
+</body>
+
+</html>
